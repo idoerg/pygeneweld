@@ -15,6 +15,7 @@ BspQI3 = Seq('CCG')
 
 
 
+
 def find_pams(seq_rec):
     pams = []
     inseq = str(seq_rec.seq)
