@@ -14,6 +14,7 @@ BspQI5 = Seq('AAG')
 BspQI3 = Seq('CCG')
 
 
+
 def find_pams(seq_rec):
     pams = []
     inseq = str(seq_rec.seq)
@@ -46,6 +47,7 @@ def find_upstream_arm_sense(genomic_dna, guide_rna, guide_rna_span, armlen = 48)
 
     # Padding to nearest codon (page 17 iterm #3). This is to ensure
     # integration is in-frame
+
 
 
     return upstream_arm
